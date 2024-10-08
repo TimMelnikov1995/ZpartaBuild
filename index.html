@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Zparta.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Zparta.data.br",
-        frameworkUrl: buildUrl + "/Zparta.framework.js.br",
-        codeUrl: buildUrl + "/Zparta.wasm.br",
+        dataUrl: buildUrl + "/Zparta.data.unityweb",
+        frameworkUrl: buildUrl + "/Zparta.framework.js.unityweb",
+        codeUrl: buildUrl + "/Zparta.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Zparta",
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Zparta.jpg.br') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/Zparta.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
